@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e45192ac8142f43688fd2ddded53bbc8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161772
+  packageName: PBR Brick Material Free
+  packageVersion: 1.0
+  assetPath: Assets/PBR_Brick_Material_Free/Material/Floor.mat
+  uploadId: 348893
