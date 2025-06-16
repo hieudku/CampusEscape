@@ -12,20 +12,28 @@ public class PlayerSpawner : MonoBehaviour
             return;
         }
 
+        Transform spawnPoint = null;
+
         if (SpawnManager.entryPoint == "FromLibrary")
         {
-            Transform spawnPoint = GameObject.Find("LibraryExitSpawn")?.transform;
-            if (spawnPoint != null) player.transform.position = spawnPoint.position;
+            spawnPoint = GameObject.Find("LibraryExitSpawn")?.transform;
         }
         else if (SpawnManager.entryPoint == "FromCampus")
         {
-            Transform spawnPoint = GameObject.Find("FromCampusSpawn")?.transform;
-            if (spawnPoint != null) player.transform.position = spawnPoint.position;
+            spawnPoint = GameObject.Find("FromCampusSpawn")?.transform;
+        }
+        else if (SpawnManager.entryPoint == "FromStaffOffice")
+        {
+            spawnPoint = GameObject.Find("StaffOfficeExitSpawn")?.transform;
+        }
+
+        if (spawnPoint != null)
+        {
+            player.transform.position = spawnPoint.position;
         }
         else
         {
-            Debug.Log("Default spawn position used.");
+            Debug.Log("Default spawn position used or spawn point not found.");
         }
     }
 }
-
