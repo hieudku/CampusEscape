@@ -1,3 +1,3 @@
 # CampusEscape
 
-![Library](.img/Unity_1AmTlNpdQl.gif)
+![](./img/Unity_1AmTlNpdQl.gif)
