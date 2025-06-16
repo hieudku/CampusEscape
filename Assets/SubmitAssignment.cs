@@ -1,31 +1,22 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class SubmitAssignment : MonoBehaviour
 {
-    public string requiredItem = "AssignmentFile";
-    public string successScene = "WinScene";
+    public GameObject submissionPanel;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            if (Inventory.HasItem(requiredItem))
+            if (Inventory.HasItem("AssignmentFile"))
             {
-                Debug.Log("Assignment submitted successfully!");
-
-                // Optionally load win scene
-                if (!string.IsNullOrEmpty(successScene))
-                {
-                    SceneManager.LoadScene(successScene);
-                }
-
-               
+                Debug.Log("Assignment submitted!");
+                submissionPanel.SetActive(true); // Show message
+                // freeze movement or hide player
             }
             else
             {
-                Debug.Log("You don't have the assignment yet.");
-
+                Debug.Log("You don't have the assignment.");
             }
         }
     }
