@@ -21,7 +21,7 @@ public class FightController : MonoBehaviour
     public AudioSource bmusic;
     public AudioSource GameOverMusic;
     public AudioSource winmusic;
-
+    public AudioSource jumpSound;
     public GameObject sword;
     public GameObject mirror;
 
@@ -98,21 +98,14 @@ public class FightController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.1f)
+        if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.linearVelocity.y) < 0.1f)
         {
+            jumpSound.Play();
             rb.AddForce(Vector3.up * jumpforce, ForceMode.Impulse);
             anim1.SetBool("Jump", true);
             Debug.Log("Jump invoked");
-        
-    
+          
 }
-
-        if (playerdata.Golemdead && !golemdead)
-        {
-            golemdead = true;
-            winmusic.Play();
-            PauseButton.isOn = true;
-        }
 
         if (Input.GetKeyDown("m")) speed = Mathf.Round((speed + speedinc) * 100f) / 100f;
         if (Input.GetKeyDown("n"))

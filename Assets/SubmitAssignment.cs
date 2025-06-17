@@ -12,6 +12,7 @@ public class SubmitAssignment : MonoBehaviour
             {
                 Debug.Log("Assignment submitted!");
                 submissionPanel.SetActive(true); // Show message
+                Time.timeScale = 0;
                 // freeze movement or hide player
             }
             else
