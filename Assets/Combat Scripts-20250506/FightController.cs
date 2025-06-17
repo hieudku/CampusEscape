@@ -11,12 +11,12 @@ public class FightController : MonoBehaviour
     private float raydistance = 0.0f;
 
     public PlayerData playerdata;
-    public int silverscore;
+    public int coffeescore;
     public Toggle Soundtoggle;
     public Toggle Fogtoggle;
     public Toggle PauseButton;
 
-    public AudioSource silver;
+    public AudioSource coffee;
     public AudioSource enemy;
     public AudioSource bmusic;
     public AudioSource GameOverMusic;
@@ -77,10 +77,10 @@ public class FightController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Silver"))
         {
-            playerdata.score += silverscore;
-            playerdata.coinstogo += silverscore;
+            playerdata.score += coffeescore;
+            playerdata.coinstogo += coffeescore;
             collision.gameObject.SetActive(false);
-            silver.Play();
+            coffee.Play();
         }
 
         if (collision.gameObject.CompareTag("Enemy") ||
@@ -126,7 +126,7 @@ public class FightController : MonoBehaviour
 
     void GoldMute(bool mute)
     {
-        silver.mute = mute;
+        coffee.mute = mute;
         enemy.mute = mute;
         bmusic.mute = mute;
     }

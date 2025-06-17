@@ -12,6 +12,7 @@ public class SwipeCardPickup : MonoBehaviour
             hasCard = true;
             Debug.Log("Swipe Card picked up!");
             Destroy(gameObject);
+            QuestManager.Instance.CompleteQuest("Find the Swipe Card");
         }
     }
 }

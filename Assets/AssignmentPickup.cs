@@ -9,6 +9,10 @@ public class AssignmentPickup : MonoBehaviour
             Inventory.AddItem("AssignmentFile");
             Debug.Log("Assignment picked up!");
             Destroy(gameObject);
+            if (QuestManager.Instance != null)
+            {
+                QuestManager.Instance.CompleteQuest("Find the Assignment");
+            }
         }
     }
 }
