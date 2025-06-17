@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\combat scripts-20250506\\fightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\combat scripts-20250506\\fightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|c:\\users\\hieuc\\onedrive\\documents\\github\\rubygame\\campusescape\\assets\\combat scripts-20250506\\fightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\combat scripts-20250506\\fightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|c:\\users\\hieuc\\onedrive\\documents\\github\\rubygame\\campusescape\\assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\pushbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SubmitAssignment.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SubmitAssignment.cs",
               "RelativeDocumentMoniker": "Assets\\SubmitAssignment.cs",
@@ -223,13 +223,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FightController.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Combat Scripts-20250506\\FightController.cs",
               "RelativeDocumentMoniker": "Assets\\Combat Scripts-20250506\\FightController.cs",
               "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Combat Scripts-20250506\\FightController.cs",
               "RelativeToolTip": "Assets\\Combat Scripts-20250506\\FightController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwF4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T02:35:20.444Z",
               "EditorCaption": ""

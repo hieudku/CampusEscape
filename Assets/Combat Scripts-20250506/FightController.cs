@@ -22,6 +22,7 @@ public class FightController : MonoBehaviour
     public AudioSource GameOverMusic;
     public AudioSource winmusic;
     public AudioSource jumpSound;
+    public AudioSource footStepSound;
     public GameObject sword;
     public GameObject mirror;
 
@@ -29,6 +30,13 @@ public class FightController : MonoBehaviour
     public Button Restart;
     public Button Quit1;
     public Button Restart1;
+
+    private bool isMoving = false;
+    private float footstepCooldown = 0.37f;
+    private float footstepTimer = 0f;
+
+    private bool isPlayingFootstep = false;
+    public float footstepInterval = 0.27f;
 
     public GameObject GameOverPanel;
     public string GameScene;
@@ -38,7 +46,8 @@ public class FightController : MonoBehaviour
 
     Rigidbody rb;
     Animator anim1;
-    bool golemdead;
+
+
 
     void Start()
     {
@@ -52,7 +61,6 @@ public class FightController : MonoBehaviour
 
         sword.SetActive(true);
         GameOverPanel.SetActive(false);
-        golemdead = false;
 
         Quit.onClick.AddListener(QuitGame);
         Restart.onClick.AddListener(RestartGame);
@@ -76,7 +84,6 @@ public class FightController : MonoBehaviour
         }
 
         if (collision.gameObject.CompareTag("Enemy") ||
-            collision.gameObject.CompareTag("Chaser") ||
             collision.gameObject.CompareTag("Skeleton") ||
             collision.gameObject.CompareTag("Giant") ||
             collision.gameObject.CompareTag("Golem"))
@@ -147,12 +154,26 @@ public class FightController : MonoBehaviour
 
             transform.rotation = Quaternion.LookRotation(moveDirection);
             rb.MovePosition(rb.position + moveDirection * speed);
+
+
+            // Footstep sound cooldown
+            footstepTimer += Time.fixedDeltaTime;
+            if (footstepTimer >= footstepCooldown)
+            {
+                footStepSound.Play();
+                footstepTimer = 0f;
+            }
         }
         else
         {
             anim1.SetBool("Run", false);
             anim1.SetBool("Attack", false);
             sword.SetActive(false);
+            footstepTimer = footstepCooldown;
+            if (footStepSound.isPlaying)
+            {
+                footStepSound.Stop();
+            }
         }
 
         mirror.transform.position = this.transform.position;
@@ -163,5 +184,12 @@ public class FightController : MonoBehaviour
     bool IsGrounded()
     {
         return Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+    }
+    IEnumerator PlayFootstepSound()
+    {
+        isPlayingFootstep = true;
+        footStepSound.Play();
+        yield return new WaitForSeconds(footstepInterval);
+        isPlayingFootstep = false;
     }
 }
