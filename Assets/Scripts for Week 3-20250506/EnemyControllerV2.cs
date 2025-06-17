@@ -23,7 +23,16 @@ public class EnemyControllerV2 : MonoBehaviour
     {
         anim = this.GetComponent<Animator>();
         agent = this.GetComponent<NavMeshAgent>();
-        if(this.gameObject.tag == "Chaser")
+
+        target = GameObject.FindWithTag("Player");
+        if (target == null)
+        {
+            Debug.LogWarning($"{gameObject.name} could not find the Player. Disabling EnemyControllerV2.");
+            this.enabled = false;
+            return;
+        }
+
+        if (this.gameObject.tag == "Chaser")
         {
             playerdata.Chasers = playerdata.Chasers + 1;
         }

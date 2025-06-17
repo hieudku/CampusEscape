@@ -51,6 +51,11 @@ public class FightController : MonoBehaviour
 
     void Start()
     {
+        if (string.IsNullOrEmpty(GameScene))
+        {
+            GameScene = "StartScene";
+        }
+
         rb = GetComponent<Rigidbody>();
         anim1 = GetComponent<Animator>();
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;

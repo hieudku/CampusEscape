@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameTimer : MonoBehaviour
 {
     public static GameTimer Instance;
+    public string GameScene;
 
     public TextMeshProUGUI timerText;
     public GameObject gameOverPanel;
@@ -15,11 +16,15 @@ public class GameTimer : MonoBehaviour
     public Button quitButton;
 
 
-    private float totalTime = 120f; // 10 minutes = 600 seconds (from 23:50 to 00:00)
+    private float totalTime = 360f; // 10 minutes = 600 seconds (from 23:50 to 00:00)
     private bool timerRunning = true;
 
     void Start()
     {
+        if (string.IsNullOrEmpty(GameScene))
+        {
+            GameScene = "StartScene";
+        }
         Time.timeScale = 1f;
         restartButton.onClick.AddListener(RestartGame);
         quitButton.onClick.AddListener(QuitGame);

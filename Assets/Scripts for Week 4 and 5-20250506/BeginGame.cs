@@ -26,7 +26,12 @@ public class BeginGame : MonoBehaviour
     void TaskOnClickBeg()
     {
         Debug.Log("You have clicked Begin Button!");
+        Time.timeScale = 1f;
+
+        DestroyDontDestroyOnLoadObjects();
+
         loading.gameObject.SetActive(true);
+        SpawnManager.entryPoint = "FromStart";
         SceneManager.LoadScene(GameScene);
     }
 
@@ -44,5 +49,21 @@ public class BeginGame : MonoBehaviour
        */
 
 
+    }
+    void DestroyDontDestroyOnLoadObjects()
+    {
+        GameObject temp = new GameObject("Temp");
+        DontDestroyOnLoad(temp);
+        Scene dontDestroyOnLoadScene = temp.scene;
+        Destroy(temp);
+
+        GameObject[] rootObjects = dontDestroyOnLoadScene.GetRootGameObjects();
+        foreach (GameObject obj in rootObjects)
+        {
+            if (obj.name != "EventSystem")
+            {
+                Destroy(obj);
+            }
+        }
     }
 }
