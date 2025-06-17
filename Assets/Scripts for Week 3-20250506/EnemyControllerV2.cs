@@ -205,19 +205,37 @@ public class EnemyControllerV2 : MonoBehaviour
                 break;
 
             case STATE.ATTACK:
-                
-                if (hit > 0)
+
+                if (DistancetoPlayer() <= agent.stoppingDistance + 0.5f)
                 {
-                    state = STATE.DEAD;
-                }
-                TurnoffTriggers();
-                anim.SetBool("Attack", true);
-                this.transform.LookAt(target.transform.position);
-                Debug.Log("Attack");
-                if (DistancetoPlayer() > agent.stoppingDistance + 2)
-                {
-                    state = STATE.CHASE;
-                    
+                    Debug.Log("Player caught - Game Over!");
+
+                    // Optional: freeze player
+                    Time.timeScale = 0;
+
+                    // Show Game Over Panel (must assign from inspector)
+                    FightController fc = target.GetComponent<FightController>();
+                    if (fc != null)
+                    {
+                        // Show Game Over UI
+                        if (fc.GameOverPanel != null)
+                            fc.GameOverPanel.SetActive(true);
+
+                        // Play game over music
+                        if (fc.GameOverMusic != null)
+                            fc.GameOverMusic.Play();
+
+                        // Mute background music
+                        if (fc.bmusic != null)
+                            fc.bmusic.mute = true;
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Could not find GameOverPanel from FightController.");
+                    }
+
+                    // Disable player
+                    target.SetActive(false);
                 }
 
                 break;

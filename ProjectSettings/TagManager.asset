@@ -15,6 +15,7 @@ TagManager:
   - Potion
   - Item
   - SpawnFromLibrary
+  - Pushable
   layers:
   - Default
   - TransparentFX
