@@ -86,12 +86,16 @@ public class FightController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Coffee"))
         {
-            playerdata.score += coffeescore;
-            collision.gameObject.SetActive(false);
-            CoffeeSound.Play();
+            string coffeeID = collision.gameObject.name;
 
-            coffeeCount++;
-            UpdateCoffeeUI();
+            if (!PlayerPrefs.HasKey(coffeeID))
+            {
+                PlayerPrefs.SetInt(coffeeID, 1);
+                playerdata.score += coffeescore;
+                collision.gameObject.SetActive(false);
+                CoffeeSound.Play();
+                UpdateCoffeeUI();
+            }
         }
 
         if (collision.gameObject.CompareTag("Enemy") ||
@@ -105,9 +109,14 @@ public class FightController : MonoBehaviour
     }
     void UpdateCoffeeUI()
     {
-        if (coffeeText != null)
         {
-            coffeeText.text = $"Coffee Collected: {coffeeCount} / {totalCoffee}";
+            int collected = 0;
+            for (int i = 1; i <= 10; i++)
+            {
+                if (PlayerPrefs.HasKey($"Coffee_cup{i}"))
+                    collected++;
+            }
+            coffeeText.text = $"Coffee Collected: {collected}/10";
         }
     }
     void GameOverSequence()

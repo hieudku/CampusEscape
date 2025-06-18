@@ -444,7 +444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1098, y: 573}
+  m_AnchoredPosition: {x: 951, y: 573}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &131549704
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -494,8 +494,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -183.41406, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1247,7 +1247,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3069601099117810003, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_Name
-      value: Coffee_cup (1)
+      value: Coffee_cup2
       objectReference: {fileID: 0}
     - target: {fileID: 3612315257855012889, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1287,6 +1287,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612315257855012889, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8114402147479316683, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6091,7 +6095,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3069601099117810003, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_Name
-      value: Coffee_cup (3)
+      value: Coffee_cup4
       objectReference: {fileID: 0}
     - target: {fileID: 3612315257855012889, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7148,7 +7152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1096, y: 658}
+  m_AnchoredPosition: {x: 951, y: 658}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1557963116
@@ -7206,8 +7210,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7244,7 +7248,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -78.60889, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10608,7 +10612,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3069601099117810003, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_Name
-      value: Coffee_cup (2)
+      value: Coffee_cup3
       objectReference: {fileID: 0}
     - target: {fileID: 3612315257855012889, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10780,9 +10784,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 928026467}
     - target: {fileID: 2829805418101962212, guid: ac1e25e4dd4f9eb4c9968a3def41dbf7, type: 3}
+      propertyPath: coffeeText
+      value: 
+      objectReference: {fileID: 131549704}
+    - target: {fileID: 2829805418101962212, guid: ac1e25e4dd4f9eb4c9968a3def41dbf7, type: 3}
       propertyPath: playerdata
       value: 
       objectReference: {fileID: 11400000, guid: a0aa30cf13f6b694790dfd373be688e6, type: 2}
+    - target: {fileID: 2829805418101962212, guid: ac1e25e4dd4f9eb4c9968a3def41dbf7, type: 3}
+      propertyPath: CoffeeSound
+      value: 
+      objectReference: {fileID: 1092726171}
     - target: {fileID: 2829805418101962212, guid: ac1e25e4dd4f9eb4c9968a3def41dbf7, type: 3}
       propertyPath: GameOverMusic
       value: 
@@ -10866,7 +10878,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3069601099117810003, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_Name
-      value: Coffee_cup
+      value: Coffee_cup1
       objectReference: {fileID: 0}
     - target: {fileID: 3612315257855012889, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_LocalPosition.x

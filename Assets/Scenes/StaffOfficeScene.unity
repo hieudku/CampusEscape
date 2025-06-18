@@ -4676,7 +4676,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3069601099117810003, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_Name
-      value: Coffee_cup
+      value: Coffee_cup9
       objectReference: {fileID: 0}
     - target: {fileID: 3612315257855012889, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6640,7 +6640,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3069601099117810003, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_Name
-      value: Coffee_cup (1)
+      value: Coffee_cup10
       objectReference: {fileID: 0}
     - target: {fileID: 3612315257855012889, guid: 5f005e59f49257548afd1e5ff5e933fb, type: 3}
       propertyPath: m_LocalPosition.x

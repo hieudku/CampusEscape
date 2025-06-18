@@ -28,6 +28,21 @@ public class BeginGame : MonoBehaviour
         Debug.Log("You have clicked Begin Button!");
         Time.timeScale = 1f;
 
+        string[] coffeeNames = {
+    "Coffee_cup1", "Coffee_cup2", "Coffee_cup3", "Coffee_cup4",
+    "Coffee_cup5", "Coffee_cup6", "Coffee_cup7", "Coffee_cup8",
+    "Coffee_cup9", "Coffee_cup10"
+};
+
+        foreach (string name in coffeeNames)
+        {
+            if (PlayerPrefs.HasKey(name))
+            {
+                PlayerPrefs.DeleteKey(name);
+            }
+        }
+        PlayerPrefs.Save();
+
         DestroyDontDestroyOnLoadObjects();
 
         loading.gameObject.SetActive(true);

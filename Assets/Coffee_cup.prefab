@@ -96,6 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3612315257855012889}
   - component: {fileID: 8114402147479316683}
+  - component: {fileID: 8254377849131913992}
   m_Layer: 0
   m_Name: Coffee_cup
   m_TagString: Coffee
@@ -141,6 +142,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3, y: 0.3, z: 0.3}
   m_Center: {x: 0, y: 0.15, z: 0}
+--- !u!114 &8254377849131913992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3069601099117810003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c9c9ba20de3fa4199a47bcb27ff023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7176710090462680223
 GameObject:
   m_ObjectHideFlags: 0

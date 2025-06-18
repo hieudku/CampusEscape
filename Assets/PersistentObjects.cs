@@ -1,7 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PersistentObjects : MonoBehaviour
 {
+    public static PersistentObjects Instance;
+
+    public HashSet<string> collectedCoffees = new HashSet<string>();
+
     private static bool hasSpawned = false;
 
     void Awake()
@@ -9,11 +14,11 @@ public class PersistentObjects : MonoBehaviour
         if (hasSpawned)
         {
             Destroy(gameObject);
+            return;
         }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            hasSpawned = true;
-        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+        hasSpawned = true;
     }
 }
