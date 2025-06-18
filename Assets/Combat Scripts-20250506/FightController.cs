@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,11 +13,14 @@ public class FightController : MonoBehaviour
 
     public PlayerData playerdata;
     public int coffeescore;
+    public TextMeshProUGUI coffeeText;
+    private int coffeeCount = 0;
+    private int totalCoffee = 10;
     public Toggle Soundtoggle;
     public Toggle Fogtoggle;
     public Toggle PauseButton;
 
-    public AudioSource coffee;
+    public AudioSource CoffeeSound;
     public AudioSource enemy;
     public AudioSource bmusic;
     public AudioSource GameOverMusic;
@@ -80,12 +84,14 @@ public class FightController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Silver"))
+        if (collision.gameObject.CompareTag("Coffee"))
         {
             playerdata.score += coffeescore;
-            playerdata.coinstogo += coffeescore;
             collision.gameObject.SetActive(false);
-            coffee.Play();
+            CoffeeSound.Play();
+
+            coffeeCount++;
+            UpdateCoffeeUI();
         }
 
         if (collision.gameObject.CompareTag("Enemy") ||
@@ -97,7 +103,13 @@ public class FightController : MonoBehaviour
             GameOverSequence();
         }
     }
-
+    void UpdateCoffeeUI()
+    {
+        if (coffeeText != null)
+        {
+            coffeeText.text = $"Coffee Collected: {coffeeCount} / {totalCoffee}";
+        }
+    }
     void GameOverSequence()
     {
         Debug.Log("You got caught! Game Over.");
@@ -131,7 +143,6 @@ public class FightController : MonoBehaviour
 
     void GoldMute(bool mute)
     {
-        coffee.mute = mute;
         enemy.mute = mute;
         bmusic.mute = mute;
     }

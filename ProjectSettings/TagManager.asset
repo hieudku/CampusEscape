@@ -16,6 +16,7 @@ TagManager:
   - Item
   - SpawnFromLibrary
   - Pushable
+  - Coffee
   layers:
   - Default
   - TransparentFX
