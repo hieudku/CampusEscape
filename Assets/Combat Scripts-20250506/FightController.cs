@@ -7,8 +7,12 @@ using UnityEngine.UI;
 public class FightController : MonoBehaviour
 {
     private float speed = 0.04f;
+    public float coffeeSpeedBoost = 0.02f; // Speed boost when coffee is collected
+    private float baseSpeed;
+    private float baseJumpForce;
     private float speedinc = 0f;
     private float jumpforce = 5f;
+    public float coffeeJumpBoost = 0.5f; // Jump boost when coffee is collected
     private float raydistance = 0.0f;
 
     public PlayerData playerdata;
@@ -55,6 +59,9 @@ public class FightController : MonoBehaviour
 
     void Start()
     {
+        baseSpeed = speed;
+        baseJumpForce = jumpforce;
+
         if (string.IsNullOrEmpty(GameScene))
         {
             GameScene = "StartScene";
@@ -75,8 +82,18 @@ public class FightController : MonoBehaviour
         Restart.onClick.AddListener(RestartGame);
         Quit1.onClick.AddListener(QuitGame1);
         Restart1.onClick.AddListener(RestartGame1);
-    }
 
+        // reset speed if new game
+        if (!PlayerPrefs.HasKey("SpeedBoosted"))
+        {
+            ResetSpeed();
+        }
+    }
+    public void ResetSpeed()
+    {
+        speed = baseSpeed;
+        jumpforce = baseJumpForce;
+    }
     void QuitGame() => SceneManager.LoadScene(GameScene);
     void RestartGame() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     void QuitGame1() => SceneManager.LoadScene(GameScene);
@@ -95,6 +112,9 @@ public class FightController : MonoBehaviour
                 collision.gameObject.SetActive(false);
                 CoffeeSound.Play();
                 UpdateCoffeeUI();
+                speed += coffeeSpeedBoost; // Increase speed when coffee is collected
+                jumpforce += coffeeJumpBoost; // Increase jump force when coffee is collected
+                PlayerPrefs.SetInt("SpeedBoosted", 1);
             }
         }
 
