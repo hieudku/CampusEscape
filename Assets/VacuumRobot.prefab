@@ -56,6 +56,26 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 6164996480583612547, guid: 8626fde89fb75014f828690077e80ac0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a192c139a9691b47b23a124fd4c2f7c, type: 2}
+    - target: {fileID: 7439002737948722077, guid: 8626fde89fb75014f828690077e80ac0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a192c139a9691b47b23a124fd4c2f7c, type: 2}
+    - target: {fileID: 7642172465688216412, guid: 8626fde89fb75014f828690077e80ac0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a192c139a9691b47b23a124fd4c2f7c, type: 2}
+    - target: {fileID: 8449996119470504636, guid: 8626fde89fb75014f828690077e80ac0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a192c139a9691b47b23a124fd4c2f7c, type: 2}
+    - target: {fileID: 8699267173835229718, guid: 8626fde89fb75014f828690077e80ac0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a192c139a9691b47b23a124fd4c2f7c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88,15 +108,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ed68a3a383765a4bb2001de21d699c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -32.899063
+      value: -11.93252
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ed68a3a383765a4bb2001de21d699c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.3441515
+      value: 4.3441505
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ed68a3a383765a4bb2001de21d699c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.1206684
+      value: -12.799608
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ed68a3a383765a4bb2001de21d699c1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -245,6 +265,6 @@ MonoBehaviour:
   target: {fileID: 0}
   impact: {fileID: 0}
   walkingspeed: 1
-  runningspeed: 5
+  runningspeed: 2
   Chaseonly: 0
   playerdata: {fileID: 0}
