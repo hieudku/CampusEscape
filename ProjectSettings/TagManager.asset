@@ -17,6 +17,7 @@ TagManager:
   - SpawnFromLibrary
   - Pushable
   - Coffee
+  - Dropbox
   layers:
   - Default
   - TransparentFX

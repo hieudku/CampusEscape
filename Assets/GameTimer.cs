@@ -7,6 +7,7 @@ public class GameTimer : MonoBehaviour
 {
     public static GameTimer Instance;
     public string GameScene;
+    private float initialTime = 360f;
 
     public TextMeshProUGUI timerText;
     public GameObject gameOverPanel;
@@ -32,10 +33,15 @@ public class GameTimer : MonoBehaviour
 
     void Awake()
     {
+        initialTime = totalTime;
         Instance = this;
         Time.timeScale = 1f;
     }
 
+    public float GetTimeElapsed()
+    {
+        return initialTime - totalTime;
+    }
     public void TriggerGameOver()
     {
         Debug.Log("Game Over triggered!");

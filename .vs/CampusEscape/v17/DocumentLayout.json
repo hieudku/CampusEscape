@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|c:\\users\\hieuc\\onedrive\\documents\\github\\rubygame\\campusescape\\assets\\notesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\notesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\notereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\notereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|c:\\users\\hieuc\\onedrive\\documents\\github\\rubygame\\campusescape\\assets\\notesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\notesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\combat scripts-20250506\\fightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts for week 4 and 5-20250506\\startscenecameraenabler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\scripts for week 4 and 5-20250506\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts for week 4 and 5-20250506\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\staffofficedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\staffofficedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|solutionrelative:assets\\submitassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56BCF737-2063-89B8-3A5A-7753F99FB428}|Assembly-CSharp.csproj|C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\assets\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NoteReader.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\NoteReader.cs",
               "RelativeDocumentMoniker": "Assets\\NoteReader.cs",
@@ -170,11 +170,12 @@
               "RelativeToolTip": "Assets\\NoteReader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T03:07:43.668Z"
+              "WhenOpened": "2025-06-19T03:07:43.668Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "NoteSystem.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\NoteSystem.cs",
               "RelativeDocumentMoniker": "Assets\\NoteSystem.cs",
@@ -187,31 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\PlayerSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerSpawner.cs",
-              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\PlayerSpawner.cs",
-              "RelativeToolTip": "Assets\\PlayerSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:24:19.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\SpawnManager.cs",
-              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:07:14.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DoorToCampus.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\DoorToCampus.cs",
               "RelativeDocumentMoniker": "Assets\\DoorToCampus.cs",
@@ -223,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "QuitGame.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Scripts for Week 4 and 5-20250506\\QuitGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts for Week 4 and 5-20250506\\QuitGame.cs",
@@ -235,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "RestartScene.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Scripts for Week 4 and 5-20250506\\RestartScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts for Week 4 and 5-20250506\\RestartScene.cs",
@@ -247,7 +224,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
+              "Title": "SubmitAssignment.cs",
+              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SubmitAssignment.cs",
+              "RelativeDocumentMoniker": "Assets\\SubmitAssignment.cs",
+              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SubmitAssignment.cs",
+              "RelativeToolTip": "Assets\\SubmitAssignment.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:24:25.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameTimer.cs",
+              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\GameTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\GameTimer.cs",
+              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\GameTimer.cs",
+              "RelativeToolTip": "Assets\\GameTimer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:27:00.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SpawnManager.cs",
+              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T05:07:14.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerSpawner.cs",
+              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\PlayerSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T05:24:19.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AssignmentPickup.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\AssignmentPickup.cs",
               "RelativeDocumentMoniker": "Assets\\AssignmentPickup.cs",
@@ -259,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FightController.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Combat Scripts-20250506\\FightController.cs",
               "RelativeDocumentMoniker": "Assets\\Combat Scripts-20250506\\FightController.cs",
@@ -271,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CoffeePersistence.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\CoffeePersistence.cs",
               "RelativeDocumentMoniker": "Assets\\CoffeePersistence.cs",
@@ -283,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "DialogManager.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\DialogManager.cs",
               "RelativeDocumentMoniker": "Assets\\DialogManager.cs",
@@ -295,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EnemyControllerV2.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Scripts for Week 3-20250506\\EnemyControllerV2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts for Week 3-20250506\\EnemyControllerV2.cs",
@@ -307,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BeginGame.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Scripts for Week 4 and 5-20250506\\BeginGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts for Week 4 and 5-20250506\\BeginGame.cs",
@@ -319,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "StartSceneCameraEnabler.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Scripts for Week 4 and 5-20250506\\StartSceneCameraEnabler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts for Week 4 and 5-20250506\\StartSceneCameraEnabler.cs",
@@ -331,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PersistentObjects.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\PersistentObjects.cs",
               "RelativeDocumentMoniker": "Assets\\PersistentObjects.cs",
@@ -343,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CoffeeManager.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\CoffeeManager.cs",
               "RelativeDocumentMoniker": "Assets\\CoffeeManager.cs",
@@ -355,19 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameTimer.cs",
-              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\GameTimer.cs",
-              "RelativeDocumentMoniker": "Assets\\GameTimer.cs",
-              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\GameTimer.cs",
-              "RelativeToolTip": "Assets\\GameTimer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:27:00.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "StaffOfficeDoor.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\StaffOfficeDoor.cs",
               "RelativeDocumentMoniker": "Assets\\StaffOfficeDoor.cs",
@@ -379,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\Scripts for Week1-20250506\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts for Week1-20250506\\CameraController.cs",
@@ -388,18 +403,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T08:47:05.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SubmitAssignment.cs",
-              "DocumentMoniker": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SubmitAssignment.cs",
-              "RelativeDocumentMoniker": "Assets\\SubmitAssignment.cs",
-              "ToolTip": "C:\\Users\\hieuc\\OneDrive\\Documents\\GitHub\\RubyGame\\CampusEscape\\Assets\\SubmitAssignment.cs",
-              "RelativeToolTip": "Assets\\SubmitAssignment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T11:24:25.758Z"
             },
             {
               "$type": "Document",
@@ -555,8 +558,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@87d5294b44e1\\Shaders\\Lit.shader",
               "ViewState": "AgIAALoBAAAAAAAAAAAwwNkBAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-06-16T03:17:40.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T03:17:40.921Z"
             },
             {
               "$type": "Document",
