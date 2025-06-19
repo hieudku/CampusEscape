@@ -797,6 +797,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetScene: GameScene
   spawnId: FromLibrary
+--- !u!1 &255843728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7289240473993227510, guid: 67dfe8e5600ba274393361d3b153021f, type: 3}
+  m_PrefabInstance: {fileID: 7703924266644633845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &255843729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255843728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfec1981c27dea24da5046eb6a0842d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteContent: You picked up Dr.Bailey's Swipecard
 --- !u!1001 &265983782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6085,7 +6103,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7289240473993227510, guid: 67dfe8e5600ba274393361d3b153021f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 255843729}
   m_SourcePrefab: {fileID: 100100000, guid: 67dfe8e5600ba274393361d3b153021f, type: 3}
 --- !u!1001 &8788679597964305438
 PrefabInstance:
